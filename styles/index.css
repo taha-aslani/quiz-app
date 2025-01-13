@@ -1,0 +1,27 @@
+.name {
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 20px;
+}
+
+.menu-item {
+  background-color: #fff;
+  color: var(--purple);
+  margin-bottom: 30px;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.15s ease-in;
+}
+
+a:hover {
+  color: #fff;
+  background-color: var(--purple);
+}

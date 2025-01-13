@@ -1,0 +1,41 @@
+h3 {
+  font-size: 2.2rem;
+  margin-bottom: 70px;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  width: 300px;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--purple);
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+button:hover {
+  background-color: var(--purple);
+  color: #fff;
+}
+
+a {
+  background-color: var(--white);
+  color: var(--purple);
+  margin-top: 30px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: all 0.15s ease-in;
+  border: 2px solid var(--purple);
+}
+
+a:hover {
+  color: #fff;
+  background-color: var(--purple);
+}
